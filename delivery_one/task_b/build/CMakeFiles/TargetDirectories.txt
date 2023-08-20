@@ -1,0 +1,3 @@
+/home/manjaro/Desktop/cpp/clone_github/INFT2503-CPP-PROG/delivery_one/task_b/build/CMakeFiles/temperatures_read.dir
+/home/manjaro/Desktop/cpp/clone_github/INFT2503-CPP-PROG/delivery_one/task_b/build/CMakeFiles/edit_cache.dir
+/home/manjaro/Desktop/cpp/clone_github/INFT2503-CPP-PROG/delivery_one/task_b/build/CMakeFiles/rebuild_cache.dir
