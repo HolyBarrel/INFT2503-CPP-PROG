@@ -1,0 +1,1 @@
+/usr/bin/c++  -std=c++1y -Wall -Wextra CMakeFiles/temperatures.dir/main.cpp.o -o temperatures 

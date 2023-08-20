@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/home/manjaro/Desktop/cpp/clone_github/INFT2503-CPP-PROG/delivery_one/task_a/build",
+  "command": "/usr/bin/c++    -std=c++1y -Wall -Wextra -o CMakeFiles/temperatures.dir/main.cpp.o -c /home/manjaro/Desktop/cpp/clone_github/INFT2503-CPP-PROG/delivery_one/task_a/main.cpp",
+  "file": "/home/manjaro/Desktop/cpp/clone_github/INFT2503-CPP-PROG/delivery_one/task_a/main.cpp",
+  "output": "CMakeFiles/temperatures.dir/main.cpp.o"
+}
+]
