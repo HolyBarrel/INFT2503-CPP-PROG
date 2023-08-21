@@ -24,7 +24,7 @@ int main()
         {
           bTen++;
         }
-        else if(currentInput > 20)
+        else if(currentInput >= 20)
         {
           aTwenty++;
         }
@@ -41,8 +41,8 @@ int main()
     
   cout << endl << "Temperature range | Amount of days"  << endl << endl
   << "\t < 10 \t  | \t" << bTen << endl << endl
-  << "10 <= T <= 20 \t  | \t" << length - bTen - aTwenty << endl << endl
-  << "\t > 20 \t  | \t" << aTwenty << endl << endl;
+  << "10 <= T < 20 \t  | \t" << length - bTen - aTwenty << endl << endl
+  << "\t >= 20 \t  | \t" << aTwenty << endl << endl;
   
   return 0;
 }
