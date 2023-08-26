@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/home/manjaro/Desktop/deliveries/INFT2503-CPP-PROG/delivery_two/task_5/build",
+  "command": "/usr/bin/c++    -std=c++1y -Wall -Wextra -o CMakeFiles/pointers_t_5.dir/main.cpp.o -c /home/manjaro/Desktop/deliveries/INFT2503-CPP-PROG/delivery_two/task_5/main.cpp",
+  "file": "/home/manjaro/Desktop/deliveries/INFT2503-CPP-PROG/delivery_two/task_5/main.cpp",
+  "output": "CMakeFiles/pointers_t_5.dir/main.cpp.o"
+}
+]
