@@ -1,0 +1,3 @@
+/home/manjaro/Desktop/deliveries/INFT2503-CPP-PROG/delivery_two/task_4/build/CMakeFiles/pointers_t_4.dir
+/home/manjaro/Desktop/deliveries/INFT2503-CPP-PROG/delivery_two/task_4/build/CMakeFiles/edit_cache.dir
+/home/manjaro/Desktop/deliveries/INFT2503-CPP-PROG/delivery_two/task_4/build/CMakeFiles/rebuild_cache.dir
