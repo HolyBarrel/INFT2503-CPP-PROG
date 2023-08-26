@@ -18,6 +18,6 @@ while (*pointer != search_for) {
 La oss si brukeren taster inn ordet `tar`.
 Da vil første iterasjon av while-loopen sikte til å iterere gjennom ordet til det finner en `e`. Problemet er at i første iterasjon settes verdien pekeren peker til (`t`) til `e` og ordet `tar` endres til `ear`. Dette skjer helt til ordet er `eeee` (fire ettersom `\0` også endres).
 
- - 3. While-løkken sjekker ikke etter det siste tegnet i en tekst. Dette kan gjøre at løkken fortsetter inn i ønsket minneområde om `search_for` ikke fins i teksten.
+ - 3. While-løkken sjekker ikke etter det siste tegnet i en tekst. Dette kan gjøre at løkken fortsetter inn i et uønsket minneområde om `e` ikke fins i teksten.
 
  - 4. Etter pekeren er satt til character `search_for` blir den satt til å bli inkrementert med 1. Dette er et problem ettersom `search_for` kun har 1 character. Dette hadde imidlertid gått fint om pekeren forble `tekst`-tabellen. 
