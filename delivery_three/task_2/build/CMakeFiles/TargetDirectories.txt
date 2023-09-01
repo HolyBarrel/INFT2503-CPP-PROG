@@ -1,0 +1,3 @@
+/home/manjaro/Desktop/deliveries/INFT2503-CPP-PROG/delivery_three/task_2/build/CMakeFiles/oop_t_2.dir
+/home/manjaro/Desktop/deliveries/INFT2503-CPP-PROG/delivery_three/task_2/build/CMakeFiles/edit_cache.dir
+/home/manjaro/Desktop/deliveries/INFT2503-CPP-PROG/delivery_three/task_2/build/CMakeFiles/rebuild_cache.dir
