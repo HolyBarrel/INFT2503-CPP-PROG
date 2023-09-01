@@ -1,0 +1,14 @@
+[
+{
+  "directory": "/home/manjaro/Desktop/deliveries/INFT2503-CPP-PROG/delivery_three/task_1/build",
+  "command": "/usr/bin/c++    -std=c++1y -Wall -Wextra -o CMakeFiles/oop_t_1.dir/main.cpp.o -c /home/manjaro/Desktop/deliveries/INFT2503-CPP-PROG/delivery_three/task_1/main.cpp",
+  "file": "/home/manjaro/Desktop/deliveries/INFT2503-CPP-PROG/delivery_three/task_1/main.cpp",
+  "output": "CMakeFiles/oop_t_1.dir/main.cpp.o"
+},
+{
+  "directory": "/home/manjaro/Desktop/deliveries/INFT2503-CPP-PROG/delivery_three/task_1/build",
+  "command": "/usr/bin/c++    -std=c++1y -Wall -Wextra -o CMakeFiles/oop_t_1.dir/Circle.cpp.o -c /home/manjaro/Desktop/deliveries/INFT2503-CPP-PROG/delivery_three/task_1/Circle.cpp",
+  "file": "/home/manjaro/Desktop/deliveries/INFT2503-CPP-PROG/delivery_three/task_1/Circle.cpp",
+  "output": "CMakeFiles/oop_t_1.dir/Circle.cpp.o"
+}
+]
