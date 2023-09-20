@@ -1,0 +1,3 @@
+/home/holybarrel/cpp-deliveries/INFT2503-CPP-PROG/delivery_six/task_a/build/CMakeFiles/chess_2.dir
+/home/holybarrel/cpp-deliveries/INFT2503-CPP-PROG/delivery_six/task_a/build/CMakeFiles/edit_cache.dir
+/home/holybarrel/cpp-deliveries/INFT2503-CPP-PROG/delivery_six/task_a/build/CMakeFiles/rebuild_cache.dir
