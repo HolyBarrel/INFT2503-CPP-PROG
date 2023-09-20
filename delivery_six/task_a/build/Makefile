@@ -153,6 +153,30 @@ ChessBoard.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/chess_2.dir/build.make CMakeFiles/chess_2.dir/ChessBoard.cpp.s
 .PHONY : ChessBoard.cpp.s
 
+ChessBoardPrint.o: ChessBoardPrint.cpp.o
+.PHONY : ChessBoardPrint.o
+
+# target to build an object file
+ChessBoardPrint.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chess_2.dir/build.make CMakeFiles/chess_2.dir/ChessBoardPrint.cpp.o
+.PHONY : ChessBoardPrint.cpp.o
+
+ChessBoardPrint.i: ChessBoardPrint.cpp.i
+.PHONY : ChessBoardPrint.i
+
+# target to preprocess a source file
+ChessBoardPrint.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chess_2.dir/build.make CMakeFiles/chess_2.dir/ChessBoardPrint.cpp.i
+.PHONY : ChessBoardPrint.cpp.i
+
+ChessBoardPrint.s: ChessBoardPrint.cpp.s
+.PHONY : ChessBoardPrint.s
+
+# target to generate assembly for a file
+ChessBoardPrint.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chess_2.dir/build.make CMakeFiles/chess_2.dir/ChessBoardPrint.cpp.s
+.PHONY : ChessBoardPrint.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -189,6 +213,9 @@ help:
 	@echo "... ChessBoard.o"
 	@echo "... ChessBoard.i"
 	@echo "... ChessBoard.s"
+	@echo "... ChessBoardPrint.o"
+	@echo "... ChessBoardPrint.i"
+	@echo "... ChessBoardPrint.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

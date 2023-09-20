@@ -1,1 +1,1 @@
-/usr/bin/c++  -std=c++1y -Wall -Wextra CMakeFiles/chess_2.dir/main.cpp.o CMakeFiles/chess_2.dir/ChessBoard.cpp.o -o chess_2 
+/usr/bin/c++  -std=c++1y -Wall -Wextra CMakeFiles/chess_2.dir/main.cpp.o CMakeFiles/chess_2.dir/ChessBoard.cpp.o CMakeFiles/chess_2.dir/ChessBoardPrint.cpp.o -o chess_2 

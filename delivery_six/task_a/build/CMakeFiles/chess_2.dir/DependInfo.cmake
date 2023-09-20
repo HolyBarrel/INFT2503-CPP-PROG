@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/holybarrel/cpp-deliveries/INFT2503-CPP-PROG/delivery_six/task_a/ChessBoard.cpp" "CMakeFiles/chess_2.dir/ChessBoard.cpp.o" "gcc" "CMakeFiles/chess_2.dir/ChessBoard.cpp.o.d"
+  "/home/holybarrel/cpp-deliveries/INFT2503-CPP-PROG/delivery_six/task_a/ChessBoardPrint.cpp" "CMakeFiles/chess_2.dir/ChessBoardPrint.cpp.o" "gcc" "CMakeFiles/chess_2.dir/ChessBoardPrint.cpp.o.d"
   "/home/holybarrel/cpp-deliveries/INFT2503-CPP-PROG/delivery_six/task_a/main.cpp" "CMakeFiles/chess_2.dir/main.cpp.o" "gcc" "CMakeFiles/chess_2.dir/main.cpp.o.d"
   )
 
