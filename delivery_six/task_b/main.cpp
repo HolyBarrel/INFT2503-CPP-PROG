@@ -46,17 +46,35 @@ private:
 
         ostream write_stream(write_buffer.get());
 
-        // Add message to be written to client:
-        string http_response = "HTTP/1.1 200 OK\r\nContent-Type: text/html\r\n<h1>This is the home page</h1>";
-        write_stream << message << http_response;
+        string http_response; 
+        
+        //Handles the different pages
+        bool found = false;
+        if (message == "GET / HTTP/1.1")
+        {
+          found = true;
+          http_response = "HTTP/1.1 200 OK\r\nContent-Type: text/html\r\n\r\n<h1>Dette er hovedsiden</h1>";
+        }
+        
+        if (message.find("GET /en_side") != string::npos)
+        {
+          found = true;
+          http_response = "HTTP/1.1 200 OK\r\nContent-Type: text/html\r\n\r\n<h1>Dette er en annen side</h1>";
+        }
+
+        if(!found)
+        {
+          http_response = "HTTP/1.1 404 Not Found\r\nContent-Type: text/html\r\n\r\n<h1>404 Not Found</h1>";
+        }
+        
+
+        write_stream << http_response;
 
         // Write to client
         async_write(connection->socket, *write_buffer,
                     [this, connection, write_buffer](const boost::system::error_code &ec, size_t) {
-          // If not error:
           if (!ec) {
-            //write(connection, write_buffer);
-            handle_request(connection);
+            cout << "Sent a reponse to the client" << endl;
           }
           else {
             cout << "There was an error with the client connection!" << endl;
