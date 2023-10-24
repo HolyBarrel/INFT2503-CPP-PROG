@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/root/cpp-deliveries/INFT2503-CPP-PROG/delivery_nine/main.cpp
+algorithm
+-
+iostream
+-
+string
+-
+vector
+-
+
