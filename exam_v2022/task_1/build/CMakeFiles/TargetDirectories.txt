@@ -1,0 +1,3 @@
+/home/oo/INFT2503-CPP-PROG/exam_v2022/task_1/build/CMakeFiles/task_1.dir
+/home/oo/INFT2503-CPP-PROG/exam_v2022/task_1/build/CMakeFiles/edit_cache.dir
+/home/oo/INFT2503-CPP-PROG/exam_v2022/task_1/build/CMakeFiles/rebuild_cache.dir
