@@ -206,12 +206,20 @@ CMakeFiles/task_2.dir/main.cpp.o: ../main.cpp \
   /usr/include/c++/11/bits/atomic_lockfree_defines.h \
   /usr/include/c++/11/backward/auto_ptr.h \
   ../models/ProgrammingLanguage.h \
+  ../models/Compilator.h \
   ../models/Cpp.h \
   ../models/ProgrammingLanguage.h \
-  ../models/Rust.h
+  ../models/Rust.h \
+  ../models/Cargo.h \
+  ../models/CMake.h \
+  ../models/Meson.h
 
+
+../models/CMake.h:
 
 ../models/Cpp.h:
+
+../models/Compilator.h:
 
 /usr/include/c++/11/bits/shared_ptr_atomic.h:
 
@@ -303,6 +311,8 @@ CMakeFiles/task_2.dir/main.cpp.o: ../main.cpp \
 
 /usr/include/alloca.h:
 
+../models/Cargo.h:
+
 /usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
 
 /usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
@@ -324,6 +334,8 @@ CMakeFiles/task_2.dir/main.cpp.o: ../main.cpp \
 /usr/include/c++/11/bits/ostream.tcc:
 
 /usr/include/c++/11/clocale:
+
+../models/Meson.h:
 
 /usr/include/c++/11/bits/stl_iterator_base_funcs.h:
 

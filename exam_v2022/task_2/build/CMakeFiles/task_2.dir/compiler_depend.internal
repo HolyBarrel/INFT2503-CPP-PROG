@@ -207,7 +207,11 @@ CMakeFiles/task_2.dir/main.cpp.o
  /usr/include/c++/11/bits/atomic_lockfree_defines.h
  /usr/include/c++/11/backward/auto_ptr.h
  /home/oo/INFT2503-CPP-PROG/exam_v2022/task_2/models/ProgrammingLanguage.h
+ /home/oo/INFT2503-CPP-PROG/exam_v2022/task_2/models/Compilator.h
  /home/oo/INFT2503-CPP-PROG/exam_v2022/task_2/models/Cpp.h
  /home/oo/INFT2503-CPP-PROG/exam_v2022/task_2/models/ProgrammingLanguage.h
  /home/oo/INFT2503-CPP-PROG/exam_v2022/task_2/models/Rust.h
+ /home/oo/INFT2503-CPP-PROG/exam_v2022/task_2/models/Cargo.h
+ /home/oo/INFT2503-CPP-PROG/exam_v2022/task_2/models/CMake.h
+ /home/oo/INFT2503-CPP-PROG/exam_v2022/task_2/models/Meson.h
 
