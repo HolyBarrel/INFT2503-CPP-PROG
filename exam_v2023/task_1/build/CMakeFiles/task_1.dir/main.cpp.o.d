@@ -1,4 +1,4 @@
-CMakeFiles/task_4.dir/main.cpp.o: \
+CMakeFiles/task_1.dir/main.cpp.o: \
  /home/oo/INFT2503-CPP-PROG/exam_v2023/task_1/main.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/11/iostream \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \

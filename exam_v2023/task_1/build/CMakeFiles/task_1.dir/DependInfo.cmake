@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/oo/INFT2503-CPP-PROG/exam_v2023/task_1/main.cpp" "CMakeFiles/task_4.dir/main.cpp.o" "gcc" "CMakeFiles/task_4.dir/main.cpp.o.d"
+  "/home/oo/INFT2503-CPP-PROG/exam_v2023/task_1/main.cpp" "CMakeFiles/task_1.dir/main.cpp.o" "gcc" "CMakeFiles/task_1.dir/main.cpp.o.d"
   )
 
 # Targets to which this target links.
