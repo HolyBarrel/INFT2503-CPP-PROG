@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /root/deliveries/INFT2503-CPP-PROG/exam_v2023/task_4
+CMAKE_SOURCE_DIR = /root/deliveries/INFT2503-CPP-PROG/exam_h2022/task_4
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/deliveries/INFT2503-CPP-PROG/exam_v2023/task_4/build
+CMAKE_BINARY_DIR = /root/deliveries/INFT2503-CPP-PROG/exam_h2022/task_4/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/deliveries/INFT2503-CPP-PROG/exam_v2023/task_4/build/CMakeFiles /root/deliveries/INFT2503-CPP-PROG/exam_v2023/task_4/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/deliveries/INFT2503-CPP-PROG/exam_h2022/task_4/build/CMakeFiles /root/deliveries/INFT2503-CPP-PROG/exam_h2022/task_4/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/deliveries/INFT2503-CPP-PROG/exam_v2023/task_4/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/deliveries/INFT2503-CPP-PROG/exam_h2022/task_4/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -117,24 +117,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named task_4
+# Target rules for targets named task_test
 
 # Build rule for target.
-task_4: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 task_4
-.PHONY : task_4
+task_test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 task_test
+.PHONY : task_test
 
 # fast build rule for target.
-task_4/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/task_4.dir/build.make CMakeFiles/task_4.dir/build
-.PHONY : task_4/fast
+task_test/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/task_test.dir/build.make CMakeFiles/task_test.dir/build
+.PHONY : task_test/fast
 
 main.o: main.cpp.o
 .PHONY : main.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/task_4.dir/build.make CMakeFiles/task_4.dir/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/task_test.dir/build.make CMakeFiles/task_test.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -142,7 +142,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/task_4.dir/build.make CMakeFiles/task_4.dir/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/task_test.dir/build.make CMakeFiles/task_test.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -150,7 +150,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/task_4.dir/build.make CMakeFiles/task_4.dir/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/task_test.dir/build.make CMakeFiles/task_test.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -161,7 +161,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... task_4"
+	@echo "... task_test"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

@@ -1,4 +1,4 @@
-# Install script for directory: /root/deliveries/INFT2503-CPP-PROG/exam_v2023/task_4
+# Install script for directory: /root/deliveries/INFT2503-CPP-PROG/exam_h2022/task_4
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/root/deliveries/INFT2503-CPP-PROG/exam_v2023/task_4/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/root/deliveries/INFT2503-CPP-PROG/exam_h2022/task_4/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
